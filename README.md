@@ -1,9 +1,9 @@
 """routine to get video url from twitter popup windows"""
 
->import asyncio
->from pyppeteer import launch
->
->url = 'https://twitter.com/Twitter'
+    import asyncio
+    from pyppeteer import launch
+
+url = 'https://twitter.com/Twitter'
 screen_name = url.split('/')[-1] # may want to use this later
 
 async def main():
