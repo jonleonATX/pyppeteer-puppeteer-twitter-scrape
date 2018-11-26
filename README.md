@@ -58,7 +58,7 @@ async def main():
         # NOTE: have not figured out how to scroll past the first 40
 
         await page.evaluate('window.scrollBy(0, 10000)')
-            #10000 gets another 20 tweets
+            # 10000 gets another 20 tweets
         print('waitfor ....')
         await page.waitFor(5000)
         #-----------------------------------------------------------------------
